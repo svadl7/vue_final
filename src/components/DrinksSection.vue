@@ -41,7 +41,6 @@ export default{
 div{
     text-align: center;
     display:inline-block;
-    grid-area: "DrinksSection";
     color:brown;
 }
 </style>
