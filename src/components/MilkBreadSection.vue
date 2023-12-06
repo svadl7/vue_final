@@ -42,7 +42,6 @@ export default{
 div{
     text-align: center;
     display:inline-block;
-    grid-area: "MilkBreadSection";
     color:brown;
 }
 </style>
