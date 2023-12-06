@@ -108,16 +108,8 @@ export default{
 
 <style>
 .container {
-  display: grid;
-  grid-template-columns:1fr;
-  grid-template-rows: 0.3fr 1fr 1fr 1fr 1fr;
-  grid-template-areas: 
-  "head"
-  "chips"
-  "drinks"
-  "tobacco"
-  "milkproducts";
-  height:100vh;
+  font-family: cursive;
+  height:110vh;
   width:auto;
   background-color:#FFFDD0;
   color:brown
@@ -125,7 +117,6 @@ export default{
   /* Add other styling as needed */
 }
 .head {
-  grid-area: head;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -148,22 +139,22 @@ export default{
 
 }
 .chips{
-  grid-area: chips;
+  font-family: cursive;
   max-height: 500px;
   margin:10px;
 }
 .drinks{
-  grid-area:drinks;
+  font-family: cursive;
   max-height: 500px;
   margin:10px;
 }
 .tobacco{
-  grid-area:tobacco;
+  font-family: cursive;
   max-height: 500px;
   margin:10px;
 }
 .milkproducts{
-  grid-area: milkproducts;
+  font-family: cursive;
   max-height:500px;
   margin:10px;
 }
